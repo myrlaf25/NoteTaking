@@ -13,5 +13,16 @@
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrlaf25/NoteTaking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myrlaf25/NoteTaking/issues"
+  },
+  "homepage": "https://github.com/myrlaf25/NoteTaking#readme"
 }

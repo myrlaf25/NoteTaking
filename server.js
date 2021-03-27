@@ -22,9 +22,9 @@ app.get("/", function(req, res){
 app.get("/notes", function(req, res){
     res.sendFile(path.join(__dirname, "public", "notes.html"));
 })
-app.get("/assets/css/styles.css", function(req, res){
-    res.sendFile(path.join(__dirname, "assets", "css", "styles.css"));
-})
+// app.get("/assets/css/styles.css", function(req, res){
+//     res.sendFile(path.join(__dirname, "assets", "css", "styles.css"));
+// })
 //API routes
     app.get("/api/notes", function (req, res) {
 

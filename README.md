@@ -42,7 +42,7 @@ The app is a note taking app. It allows the user to creat, save, and delete note
     
 ## Credits
 
-Started code was provided by Trilogy. The back end was develop by Myrla Flores and with assistance from the Bootcamp staff. 
+Starter code was provided by Trilogy. The back end was develop by Myrla Flores and with assistance from the Bootcamp staff. 
 
 
 ## License

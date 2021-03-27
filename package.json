@@ -1,28 +1,31 @@
 {
-  "name": "js",
+  "name": "notetaking",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myrlaf25/NoteTaking.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/myrlaf25/NoteTaking/issues"
   },
-  "homepage": "https://github.com/myrlaf25/NoteTaking#readme"
+  "homepage": "https://github.com/myrlaf25/NoteTaking#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*",
+    "loader": "^2.1.1",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  }
 }

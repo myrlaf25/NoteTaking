@@ -40,7 +40,7 @@ app.get("/notes", function(req, res){
           title: req.body.title,
           text: req.body.text
       };
-      async function addNote(note){
+      async function addNote(){
           let notes = await fs.promises.readFile("./db/db.json", "utf-8");
           console.log(notes);
           
